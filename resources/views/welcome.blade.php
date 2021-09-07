@@ -403,7 +403,7 @@
 <body class="antialiased">
     <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-        <div class="ml-4 text-center text-lg text-gray-500">SHAMO API LARAVEL | BINTANGMFHD</div>
+        <div class="ml-4 text-center text-lg text-gray-500">SHAMO API LARAVEL | BINTANGMFHD</div><br>
         <div class="text-center text-sm"><a href="{{ asset('shamo-api.postman_collection.json') }}" download>Download
                 Postman
                 Shamo Documentation</a>
