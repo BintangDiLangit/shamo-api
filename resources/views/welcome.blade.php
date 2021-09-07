@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
-
+    <title>Shamo Backend</title>
+    <link rel="icon" href="https://bintangmfhd.tech/satner/img/logo.png" type="image/png">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -404,6 +404,10 @@
     <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         <div class="ml-4 text-center text-lg text-gray-500">SHAMO API LARAVEL | BINTANGMFHD</div>
+        <div class="text-center text-sm"><a href="{{ asset('shamo-api.postman_collection.json') }}" download>Download
+                Postman
+                Shamo Documentation</a>
+        </div>
     </div>
 </body>
 
