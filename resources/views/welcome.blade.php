@@ -404,7 +404,10 @@
     <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         <div class="ml-4 text-center text-lg text-gray-500">SHAMO API LARAVEL | BINTANGMFHD |
-            Shamo | <a href="{{ asset('shamo-api.postman_collection.json') }}" download>Postman Download</a></div>
+        </div>
+        <div class="ml-4 text-center text-sm text-blue-400">Shamo | <a
+                href="{{ asset('shamo-api.postman_collection.json') }}" download>Postman Download</a>
+        </div>
     </div>
 </body>
 
