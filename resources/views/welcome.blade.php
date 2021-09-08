@@ -269,6 +269,10 @@
             text-decoration: underline
         }
 
+        .text-primary {
+            color: rgb(0, 21, 138);
+        }
+
         .antialiased {
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale
@@ -404,7 +408,7 @@
     <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         <div class="ml-4 text-center text-lg text-gray-500">SHAMO API LARAVEL | BINTANGMFHD | <a
-                href="{{ asset('shamo-api.postman_collection.json') }}" class="text-primary" download>Postman
+                href="{{ asset('shamo-api.postman_collection.json') }}" class="text-primary underline" download>Postman
                 Download</a>
         </div>
     </div>
